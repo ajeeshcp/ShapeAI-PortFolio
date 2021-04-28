@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(95, 91, 91);
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+body{
+    margin: 0;
+}
+header {
+    background: #fff;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding-top: 20px;
+    color: rgb(100, 97, 97);
+    box-shadow: 0 4px 8px 0 rgba(90, 88, 88, 0.2);
+    position: fixed;
+    z-index: 1;
+    
+    
+    
+    
+}
+header .navbar{
+    display: flex;
+   position: absolute;
+   right: 5em;
+   text-transform: uppercase;
+}
+header .navbar li{
+    padding: 1em;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+header .logo{
+    padding: 5em;
+}
+header .navbar li:hover{
+   
+    background-color: #69d4b1;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+    
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 80px;
+   
+}
+section img{
+   
+    margin-top: 100px;
+    border-radius: 50%;
+}
+section .content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+   
+    text-align: center;
+    
+
+    
+}
+section .content span{
+    color:#69d4b1 ;
+}
+section .content .note{
+    color: grey;
+}
+section .content .note-1{
+    color: grey;
+    font-size: 18px;
+    max-width: 600px;
+    
+}
+section .content .resume-btn{
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    background-color: #69d4b1;
+    color:#fff;
+    cursor: pointer;
+    font-weight: 20px;
+}
+section .content .resume-btn:hover{
+    background-color: #45bdc5;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+    transition: ease-in-out .3s;
+}
+
+.contact{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.heading h1{
+    padding-top: 100px;
+    text-align: center;
+}
+.contact h1{
+ 
+    background-color: rgb(167, 123, 145);
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+    
+}
+.inp{
+margin: 20px 20px;
+border-radius: 30px;
+border: 1px solid #69d4b1;
+outline: none;
+
+}
+.input-1 ,.input-2{
+    padding: 20px 100px;
+    text-align: start;
+    
+}
+.input-3{
+    padding: 10px 100px;
+    text-align: start;
+}
+.contact .submit{
+    background-color: #69d4b1;
+    color:#fff;
+    cursor: pointer;
+    padding: 10px;
+   width:90%;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  
+}
+.contact .submit:hover{
+    background-color: #45bdc5;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+   transition: ease-in-out .3s;
+}
+footer{
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+
